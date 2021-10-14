@@ -1,0 +1,12 @@
+DoubleTau Tight 152.841 Hz 25 GeV 
+DoubleTau Medium 122.367 Hz 27 GeV 
+DoubleTau Loose 157.59 Hz 31 GeV 
+DoubleTau VLoose 155.46 Hz 37 GeV 
+SingleTau Tight 498.591 Hz 49 GeV 
+SingleTau Medium 459.932 Hz 68 GeV 
+SingleTau Loose 490.994 Hz 74 GeV 
+SingleTau VLoose 494.279 Hz 81 GeV 
+DoubleTau NoCut 169.258 Hz 87 GeV 
+DoubleTau dZ 169.258 Hz 87 GeV 
+SingleTau NoCut 499.21 Hz 150 GeV 
+SingleTau dZ 499.21 Hz 150 GeV 

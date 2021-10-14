@@ -1,0 +1,81 @@
+OutputFile: /home/sbhowmik/HLTTau/HLTCrossTriggerStudyPhase2/HLTCrossTriggerStudyPhase2/efficiencyPlot/results/fitOutput_Efficiency_vs_Pt_for_Double_Gen_HPSL1andHLTTau_DeepTau_All_Stitching_20211012.root
+NCPU: 4
+Turnon.N: 6
+Turnon.1.Name: Phase2_HLTTau_hltTauNoCut
+Turnon.1.File: /home/sbhowmik/RootTree/HLTTau/Phase2/rootTree_Signal_Efficiency_for_Double_Gen_HPSL1andHLTTau_DeepTau_All_Stitching_20211012.root
+Turnon.1.Tree: HLTTauAnalyzer
+Turnon.1.XVar: tauPt
+Turnon.1.Cut: hltTauNoCut
+Turnon.1.WeightVar: bkgSubW
+Turnon.1.Binning: 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 120 150 200 300 500
+Turnon.1.FitRange:0 500
+Turnon.1.CB.Max: 1. 0.9 1.
+Turnon.1.CB.Alpha: 3. 0.01 50.
+Turnon.1.CB.N: 10. 1.001 100.
+Turnon.1.CB.Mean: 30. 0. 120.
+Turnon.1.CB.Sigma: 2. 0.01 10
+Turnon.2.Name: Phase2_HLTTau_hltTaudZ
+Turnon.2.File: /home/sbhowmik/RootTree/HLTTau/Phase2/rootTree_Signal_Efficiency_for_Double_Gen_HPSL1andHLTTau_DeepTau_All_Stitching_20211012.root
+Turnon.2.Tree: HLTTauAnalyzer
+Turnon.2.XVar: tauPt
+Turnon.2.Cut: hltTaudZ
+Turnon.2.WeightVar: bkgSubW
+Turnon.2.Binning: 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 120 150 200 300 500
+Turnon.2.FitRange:0 500
+Turnon.2.CB.Max: 1. 0.9 1.
+Turnon.2.CB.Alpha: 3. 0.01 50.
+Turnon.2.CB.N: 10. 1.001 100.
+Turnon.2.CB.Mean: 30. 0. 120.
+Turnon.2.CB.Sigma: 2. 0.01 10
+Turnon.3.Name: Phase2_HLTTau_hltTauVLoose
+Turnon.3.File: /home/sbhowmik/RootTree/HLTTau/Phase2/rootTree_Signal_Efficiency_for_Double_Gen_HPSL1andHLTTau_DeepTau_All_Stitching_20211012.root
+Turnon.3.Tree: HLTTauAnalyzer
+Turnon.3.XVar: tauPt
+Turnon.3.Cut: hltTauVLoose
+Turnon.3.WeightVar: bkgSubW
+Turnon.3.Binning: 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 120 150 200 300 500
+Turnon.3.FitRange:0 500
+Turnon.3.CB.Max: 1. 0.9 1.
+Turnon.3.CB.Alpha: 3. 0.01 50.
+Turnon.3.CB.N: 10. 1.001 100.
+Turnon.3.CB.Mean: 30. 0. 120.
+Turnon.3.CB.Sigma: 2. 0.01 10
+Turnon.4.Name: Phase2_HLTTau_hltTauLoose
+Turnon.4.File: /home/sbhowmik/RootTree/HLTTau/Phase2/rootTree_Signal_Efficiency_for_Double_Gen_HPSL1andHLTTau_DeepTau_All_Stitching_20211012.root
+Turnon.4.Tree: HLTTauAnalyzer
+Turnon.4.XVar: tauPt
+Turnon.4.Cut: hltTauLoose
+Turnon.4.WeightVar: bkgSubW
+Turnon.4.Binning: 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 120 150 200 300 500
+Turnon.4.FitRange:0 500
+Turnon.4.CB.Max: 1. 0.9 1.
+Turnon.4.CB.Alpha: 3. 0.01 50.
+Turnon.4.CB.N: 10. 1.001 100.
+Turnon.4.CB.Mean: 30. 0. 120.
+Turnon.4.CB.Sigma: 2. 0.01 10
+Turnon.5.Name: Phase2_HLTTau_hltTauMedium
+Turnon.5.File: /home/sbhowmik/RootTree/HLTTau/Phase2/rootTree_Signal_Efficiency_for_Double_Gen_HPSL1andHLTTau_DeepTau_All_Stitching_20211012.root
+Turnon.5.Tree: HLTTauAnalyzer
+Turnon.5.XVar: tauPt
+Turnon.5.Cut: hltTauMedium
+Turnon.5.WeightVar: bkgSubW
+Turnon.5.Binning: 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 120 150 200 300 500
+Turnon.5.FitRange:0 500
+Turnon.5.CB.Max: 1. 0.9 1.
+Turnon.5.CB.Alpha: 3. 0.01 50.
+Turnon.5.CB.N: 10. 1.001 100.
+Turnon.5.CB.Mean: 30. 0. 120.
+Turnon.5.CB.Sigma: 2. 0.01 10
+Turnon.6.Name: Phase2_HLTTau_hltTauTight
+Turnon.6.File: /home/sbhowmik/RootTree/HLTTau/Phase2/rootTree_Signal_Efficiency_for_Double_Gen_HPSL1andHLTTau_DeepTau_All_Stitching_20211012.root
+Turnon.6.Tree: HLTTauAnalyzer
+Turnon.6.XVar: tauPt
+Turnon.6.Cut: hltTauTight
+Turnon.6.WeightVar: bkgSubW
+Turnon.6.Binning: 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 120 150 200 300 500
+Turnon.6.FitRange:0 500
+Turnon.6.CB.Max: 1. 0.9 1.
+Turnon.6.CB.Alpha: 3. 0.01 50.
+Turnon.6.CB.N: 10. 1.001 100.
+Turnon.6.CB.Mean: 30. 0. 120.
+Turnon.6.CB.Sigma: 2. 0.01 10
